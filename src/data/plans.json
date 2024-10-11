@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Arcade",
+    "price": {
+      "oneTime": 9
+    },
+    "icon": "/images/icons/icon-arcade.svg"
+  },
+  {
+    "name": "Advanced",
+    "price": {
+      "oneTime": 12
+    },
+    "icon": "/images/icons/icon-advanced.svg"
+  },
+  {
+    "name": "Pro",
+    "price": {
+      "oneTime": 15
+    },
+    "icon": "/images/icons/icon-pro.svg"
+  }
+]
