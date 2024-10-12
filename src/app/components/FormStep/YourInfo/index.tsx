@@ -6,7 +6,7 @@ import { useForm } from "../../../hooks/use-form";
 import { ACTIONS } from "../../../contexts/form";
 import { TextInput } from "../../Form/TextInput";
 import Form from "../../Form";
-import { Footer } from "../../Footer";
+// import { Footer } from "../../Footer";
 
 // Define a type for the form data
 interface FormData {
@@ -154,6 +154,7 @@ export function YourInfo() {
 
   return (
     <Fragment>
+      <div className="mt-10 flex flex-col gap-4">
       <Form.Card>
         <Form.Header
           title="Personal Info"
@@ -253,6 +254,7 @@ export function YourInfo() {
             name="branchName"
           />
         </div>
+      
 
         {/* Manual Button Implementation */}
         <div className="flex justify-between mt-5">
@@ -272,6 +274,7 @@ export function YourInfo() {
           </button>
         </div>
       </Form.Card>
+      </div>
     </Fragment>
   );
 }

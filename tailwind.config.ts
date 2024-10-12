@@ -10,17 +10,20 @@ const config: Config = {
     extend: {
       colors: {
         white: '#FFFFFF',
-        ['sky-blue']: '#BEE2FD',
+        'sky-blue': '#BEE2FD',
         denim: '#022959',
         bg: '#EFF5FF',
-        ['light-blue']: '#ABBCFF',
+        'light-blue': '#ABBCFF',
         grey: '#9699AA',
         red: '#EE374A',
         'border-grey': '#D6D9E6',
         purple: '#483EFF',
         'very-light-grey': '#F8F9FF'
-      }
-    }
+      },
+      spacing: {
+        '26': '6.5rem', // Add custom spacing value for mt-26
+      },
+    },
   },
   plugins: [],
 }
