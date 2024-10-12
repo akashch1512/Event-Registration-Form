@@ -31,7 +31,7 @@ export function Summary() {
         moveToStep(1);
       }, 4000);
     }
-  }, [submitted, moveToStep, clearForm]);  
+  }, [submitted, moveToStep, clearForm]);
 
   if (submitted) {
     return <PostConfirmation />;
@@ -53,8 +53,8 @@ export function Summary() {
           method="POST" // Use POST method
           data-netlify="true" // This attribute allows Netlify to recognize the form
           onSubmit={(e) => {
-            e.preventDefault(); // Prevent default form submission
             handleGoForwardStep(); // Call the new function for forward step logic
+            // Do not prevent the default form submission here
           }}
         >
           <input type="hidden" name="form-name" value="contact" /> {/* Hidden field for Netlify */}
