@@ -1,11 +1,11 @@
 # Node modules
 node_modules/
-/client/node_modules/
-/server/node_modules/
+client/node_modules/
+server/node_modules/
 
 # Build output
-/client/build/
-/server/build/
+client/build/
+server/build/
 
 # Logs
 npm-debug.log
@@ -19,4 +19,19 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
-.next
+# Next.js build output
+.next/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Miscellaneous
+*.local
+*.lock
+*.tgz
+*.gz
+
+# Ignore all npm logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
